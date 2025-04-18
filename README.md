@@ -13,3 +13,7 @@ La creation d'un eto do list complexe en révisant les bases afin de combler les
 # Creation de fichier personnel.html -(quelques secondes)- Ressenti : trés facile
 
 # creation de fichier professionnel.html -(quelques secondes)- Ressenti : trés facile
+
+# Creation de la nav bar et link des pages -(2min)- Ressenti : trés facile
+
+# Creation de fichier style.css et link aux trois pages -(quelques secondes)- Ressenti : trés facile
