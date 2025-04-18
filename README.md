@@ -9,3 +9,7 @@ La creation d'un eto do list complexe en révisant les bases afin de combler les
 # Creation de fichier index.html -(quelques secondes)- Ressenti : trés facile
 
 # creation de la structure HTML doctype avec !-(quelques secondes)- Ressenti : trés facile
+
+# Creation de fichier personnel.html -(quelques secondes)- Ressenti : trés facile
+
+# creation de fichier professionnel.html -(quelques secondes)- Ressenti : trés facile
