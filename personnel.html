@@ -7,17 +7,76 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a  class="" href="index.html">Home page</a></li>
-            <li> <a class="" href="personnel.html">To do list personnel</a></li>
-            <li><a class="" href="professionnel.html">To do list professionnel</a></li>   
-        </ul> 
-    </nav>
+    <nav class="crumbs">
+        <a href="index.html">Home page </a><a href="professionnel.html">To do list professionnel </a><a href="personnel.html">To do list personnel  </a>
+          <!-- <li class="crumb" align="alignement"><a href="index.html">Home page</a></li>
+          <li class="crumb" align="alignement"><a href="personnel.html" align="alignement">To do list personnel</a></li>
+          <li class="crumb"><a href="professionnel.html" align="alignement">To do list professionnel</a></li>
+         -->
+        <hr>
+      </nav>
     <section>
         <h1> Bienvenue dans votre Do to list personnel</h1>
-        <p class="descriptionHome">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae ut, consequuntur, optio molestiae cupiditate recusandae, placeat aliquid repellendus nihil explicabo nam perspiciatis voluptatem aspernatur deleniti assumenda cumque quis omnis consequatur.</p>
+        <p class="descriptionToDoListPersonnel" align=" center">Dans cette page vous pouvez ajouter vos tâches de travail qui seront afficher dans un tableau de suivit dans votre to do list ci-dessous</p>
     </section>
+    <!-- formulaire d'ajout d'une nouvelle tache -->
+  <form action="" method="post">
+    <fieldset>
+    <legend>Ajouter une tache à la to do list</legend>
+    <br>
+    
+    <label for="number">number</label>
+    <input type="number" name="number" id="number">
+    <br>
+
+    <label for="titre">titre</label>
+    <input type="text" name="titre" id="titre">
+    <br>
+
+    <label for="Description">Description</label>
+    <input type="textarea" name="Description" id="Description">
+
+    <br>
+    <label for="statut">statut</label>
+    <input type="radio" name="statut" id="statut">
+    <br>
+
+    <label for="date_de_creation"> Date de création</label>
+    <input type="date" name="date_de_creation" id="date_de_creation">
+    <br>
+
+    <label for="date_de_fin"> Date de fin</label>
+    <input type="date" name="date_de_fin" id="date_de_fin ">
+    <br>
+    <div>
+        <label for="Type">Type : </label>
+
+        <label for="Type">Urgent</label> 
+        <input type="radio" id="uregent" name="urgent" value="urgent" />
+    
+        <label for="Type">Normal</label>
+        <input type="radio" id="normal" name="normla" value="normal" />
+
+        <label for="Type">Modéré</label>
+        <input type="radio" id="modéré" name="modéré" value="modéré" />
+    </div>
+    <br>
+    <label for="Catégorie">Catégorie:</label>
+    <select name="catégories" id="catégorie">
+      <option value="">--Choisit une catégorie--</option>
+      <option value="personnel">Personnel</option>
+      <option value="professionnel">Professionnel</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Ajouter la tâche">
+</fieldset>
+</form>
+
+    </section>
+    <br>
+    <br>
+    <br>
    
      <!-- tableau To do list -->
      <section>
@@ -32,7 +91,6 @@
                <th>Type</th>
                <th> Catégorie</th>
              </tr>
-
 
              <tr> 
                 <th>1</th>
